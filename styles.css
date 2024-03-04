@@ -1,6 +1,8 @@
 body{
+    height: 100vh;
     background-color: black;
     color: antiquewhite;
+    display:flex;
     align-items: center;
-    align-content: center;
+    justify-content: center;
 }
