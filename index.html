@@ -4,15 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./styles.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <title>Document</title>
     <link rel="icon" href="./logo.png" type="image/x-icon" />
   </head>
   <body>
+    <div
+      id="loading"
+      class="d-flex justify-content-center align-items-center"
+      style="height: 100vh"
+    >
+      <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <div id="main-content" class="d-none">
       <ul>
         <li><a class="active" href="#home">Home</a></li>
         <li><a href="#news">News</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#about">About</a></li>
       </ul>
+      <h1>Welcome to the Main Page!</h1>
+      <!-- Your main content goes here -->
+    </div>
+    <script src="./script.js"></script>
   </body>
 </html>
